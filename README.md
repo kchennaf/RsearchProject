@@ -76,7 +76,7 @@ Figure : Semantic Web Architecture
 Moreover, if it is well designed, it must make it possible to language at the right level of complexity, this being a function of the application to realize. A central aspect of the infrastructure is its ability to identify and locate various resources. It is based on the notion of URI (Uniform Resource Identifier) which allows to assign a unique identifier to a set of resources, on the web of course but also in other domains (documents, mobile phones, people, etc.). This concept is currently experiencing many extensions, currently being standardization, to entities other than URLs. It is at the very base languages of the W3C.  Another characteristic of all these languages is to be systematically expressible and exchangeable in an XML syntax. This makes it possible to benefit from all the technologies developed around XML: XML Schemas, tools for exploiting XML resources (JAVA libraries, etc.), databases managing XML files, even though specific query languages are needed for languages built on XML like RDF.
 
  
-![](https://github.com/kchennaf/RsearchProject/blob/master/image8.jpg?raw=true)
+![](https://github.com/kchennaf/RsearchProject/blob/master/image13.jpg?raw=true)
 Figure: URIs Vs URLs
 
 
