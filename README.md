@@ -1,6 +1,6 @@
-# CloudComputing RsearchProject
+# CloudComputing Research Project
 
-# Semantic Web
+# The Semantic Web
 
 ## Abstract 
 
@@ -68,12 +68,12 @@ Table: Comparison of different versions of the Web
 
 ## Semantic Web Architecture & Languages
 
-The work aiming at the realization of the Semantic Web is located at very different levels of complexity. The simplest use games more or less reduced metadata in a search context information or to adapt the presentation of information to users. In this case, simple representation languages ​​are enough. In the more complex work implementing sophisticated architectures, to allow, for example, the exploitation of heterogeneous resources, more expressive and more formal languages work in representation and in the engineering of knowledge, are required. The W3C proposal is initially based on a pyramid of languages ​​of which only the lower layers are today relatively stabilized. The following figure shows one of the versions of the organization in layers proposed by the W3C. Two types of benefits can be expected from this organization. It allows a gradual approach in standardization and user acceptance processes.
+The work aiming at the realization of the Semantic Web is located at very different levels of complexity. The simplest use games more or less reduced metadata in a search context information or to adapt the presentation of information to users. In this case, simple representation languages ​​are enough. In the more complex work implementing sophisticated architectures, to allow, for example, the exploitation of heterogeneous resources, more expressive and more formal languages work in representation and in the engineering of knowledge, are required. The W3C proposal is initially based on a pyramid of languages of which only the lower layers are today relatively stabilized. The following figure shows one of the versions of the organization in layers proposed by the W3C. Two types of benefits can be expected from this organization. It allows a gradual approach in standardization and user acceptance processes.
 
 
 Figure : Semantic Web Architecture
 
-Moreover, if it is well designed, it must make it possible to language at the right level of complexity, this being a function of the application to realize. A central aspect of the infrastructure is its ability to identify and locate various resources. It is based on the notion of URI (Uniform Resource Identifier) which allows to assign a unique identifier to a set of resources, on the web of course but also in other domains (documents, mobile phones, people, etc.). This concept is currently experiencing many extensions, currently being standardization, to entities other than URLs. It is at the very base languages of the W3C.  Another characteristic of all these languages ​​is to be systematically expressible and exchangeable in an XML syntax. This makes it possible to benefit from all the technologies developed around XML: XML Schemas, tools for exploiting XML resources (JAVA libraries, etc.), databases managing XML files, even though specific query languages are needed for languages built on XML like RDF.
+Moreover, if it is well designed, it must make it possible to language at the right level of complexity, this being a function of the application to realize. A central aspect of the infrastructure is its ability to identify and locate various resources. It is based on the notion of URI (Uniform Resource Identifier) which allows to assign a unique identifier to a set of resources, on the web of course but also in other domains (documents, mobile phones, people, etc.). This concept is currently experiencing many extensions, currently being standardization, to entities other than URLs. It is at the very base languages of the W3C.  Another characteristic of all these languages is to be systematically expressible and exchangeable in an XML syntax. This makes it possible to benefit from all the technologies developed around XML: XML Schemas, tools for exploiting XML resources (JAVA libraries, etc.), databases managing XML files, even though specific query languages are needed for languages built on XML like RDF.
 
  
 
@@ -114,16 +114,14 @@ Mathematical logic is a model of mathematical reasoning, and it is mainly a form
 By definition, a formal system, that is to say a logic, is composed of:
 
 - a language, i.e., a structure expressed by means of symbols, consisting of an alphabet and a method expression training
-
 - a system of deduction which, starting from formulas of the language chosen as premises (i.e., axioms), makes it possible to construct new formulas (theorems) thanks to rules of deduction (or derivation)
-
 - evaluation rules that allow to associate a &quot;value&quot;, called truth value, with any formula of the language (usually true or false).
 
 The first two points are the syntax (how to write and calculate formulas) and the last one semantics (how to evaluate formulas) of representation in a model.
 
 Figure: Development of knowledge representation
 
-MetaData &amp; LinkData
+### MetaData & LinkData
 
 The use of Semantic Web infrastructures by different applications will be progressive. We can bet that the most numerous, in any case, will rely mainly on the exploitation of metadata, one of the basic principles of the Semantic Web being to describe Web resources using markers that can be exploited by different software.
 
@@ -132,34 +130,28 @@ In terms of applications, it is clear that the search for information (and there
 
 Figure: Example of RDF using Linked Data
 
-As examples of first realizations using RDF fully for metadata or annotations, we can mention the system Annotea and RDFPic software. Annotea is a client-server system collaborative for the annotation of documents without any modification of these. These RDF annotations can be added, modified and viewed by a community of users who have access to the same server annotation. XPointer and XLink are used to associate metadata with different parts of documents.  RDFPic is used to attach meta-data to digital photos for the purpose of facilitate the search for images. It relies on a combination descriptive elements with those of the Dublin Core which proposes a set of relatively limited descriptive fields (author, ...). The RDF descriptions are nested within JPEG files. On the other hand, different initiatives have already produced metadata specifications in RDF, for example LOM (Learning Object Metadata) for
+As examples of first realizations using RDF fully for metadata or annotations, we can mention the system Annotea and RDFPic software. Annotea is a client-server system collaborative for the annotation of documents without any modification of these. These RDF annotations can be added, modified and viewed by a community of users who have access to the same server annotation. XPointer and XLink are used to associate metadata with different parts of documents.  RDFPic is used to attach meta-data to digital photos for the purpose of facilitate the search for images. It relies on a combination descriptive elements with those of the Dublin Core which proposes a set of relatively limited descriptive fields (author, ...). The RDF descriptions are nested within JPEG files. On the other hand, different initiatives have already produced metadata specifications in RDF, for example LOM (Learning Object Metadata) for distance learning.
 
-distance learning.
-
-These two examples, Annotea and RDFPic, are interesting because they highlight important distinctions in the reports
-
-between metadata and Semantic Web. A first is between a nested representation in the resources they qualify (the Meta tags in HTML pages are the most primitive form even before the Semantic Web) and an external representation, by example a catalog or a Topic Maps file associated with a portal on Internet or Intranet. Using RDF is compatible with both
-
-while the Topic Maps approach works with external files. The external approach has the advantage of leaving the documents and allows the same documents to be used by communities or for different tasks, as often reported in the context of open hypermedia systems.
+These two examples, Annotea and RDFPic, are interesting because they highlight important distinctions in the reports between metadata and Semantic Web. A first is between a nested representation in the resources they qualify (the Meta tags in HTML pages are the most primitive form even before the Semantic Web) and an external representation, by example a catalog or a Topic Maps file associated with a portal on Internet or Intranet. Using RDF is compatible with both while the Topic Maps approach works with external files. The external approach has the advantage of leaving the documents and allows the same documents to be used by communities or for different tasks, as often reported in the context of open hypermedia systems.
 
 
 Figure: Example of BBC Music&#39;s linked data with Wikipedia
 
-Ontologies &amp; OWL
+### Ontologies & OWL
 
 In the Web domain, an ontology is a document or file that defines formally the relationships between terms. An ontology conveys a certain &quot;explicit consensus&quot; and a certain &quot;sharing domain&quot; that are indispensable in the exploitation of Web resources. Formalization is a facet of ontologies that allows the exploitation and combination of Web resources. A typical ontology of the Web must have a taxonomy and a set of rules of inference. Taxonomy defines classes of objects and the relationships between them. The controlled vocabulary is then organized as a simple hierarchy. The rules of inference are based on the same principle as taxonomy but are even more powerful. For example, they allow ontologies to express the following rule: &quot;If a city postal code is associated with a status code and an address uses that city code, then that address is associated with the state code. &quot;
 
 Thus, an ontology allows to:
 
-- --Share the common understanding of the information structure between people or software manufacturers
-- --Allow reuse of knowledge on a domain
-- --Explain what is considered implicit on a domain
-- --Distinguish knowledge on a field of operational knowledge
-- --Analyze knowledge on a domain
+- Share the common understanding of the information structure between people or software manufacturers
+- Allow reuse of knowledge on a domain
+- Explain what is considered implicit on a domain
+- Distinguish knowledge on a field of operational knowledge
+- Analyze knowledge on a domain
 
 To represent ontologies, W3C has proposed a standard language: OWL (Ontology Web Language). The OWL language is built on RDFS and has XML syntax. It defines a rich vocabulary for the description of complex ontologies. It is based on a formal semantics defined by a rigorous syntax.
 
-OWL and RDFS are two RDF languages ​​that define vocabularies: &quot;RDF Schema defines the smallest number of concepts and properties needed to define a simple vocabulary. OWL is a much richer language which, with the notions defined by RDF Schema, adds the properties of equivalent class, equivalent property, identity of two resources, differences of two resources, of opposite, of symmetry, of transitivity, of cardinality, etc., to define complex relationships between resources. &quot;
+OWL and RDFS are two RDF languages that define vocabularies: &quot;RDF Schema defines the smallest number of concepts and properties needed to define a simple vocabulary. OWL is a much richer language which, with the notions defined by RDF Schema, adds the properties of equivalent class, equivalent property, identity of two resources, differences of two resources, of opposite, of symmetry, of transitivity, of cardinality, etc., to define complex relationships between resources. &quot;
 
 Figure: Evolution of Ontologies
 
@@ -173,21 +165,21 @@ Figure : Use of Semantic Web today
 
 Software using RDF and OWL technologies currently include but are not limited to:
 
-- --Content creation applications: the authors of a document can add metadata (subject, author, place, language, indication of copyright, etc ...) to documents, to improve the search for documents.
-- --Web site management tools: Important websites can be dynamically managed according to custom content categories.
-- --Software that takes the best of RDF and OWL: organizations can integrate enterprise applications, publications and subscriptions using a flexible model.
-- --Transverse applications that reuse data: RDF and OWL are standards and not &quot;proprietary&quot; technologies, so reuse of data from different sources is possible.
+- Content creation applications: the authors of a document can add metadata (subject, author, place, language, indication of copyright, etc ...) to documents, to improve the search for documents.
+- Web site management tools: Important websites can be dynamically managed according to custom content categories.
+- Software that takes the best of RDF and OWL: organizations can integrate enterprise applications, publications and subscriptions using a flexible model.
+- Transverse applications that reuse data: RDF and OWL are standards and not &quot;proprietary&quot; technologies, so reuse of data from different sources is possible.
 
 While the emergence of the OWL standard has allowed the creation of some applications and a great evolution, the research continues to allow the emergence of new standards to manage the logic, the complete reasoning, and the confidence through the ontologies and the knowledge bases deployed for the Semantic Web. Today, several areas of development must evolve and progress in order to make full use of Semantic Web technologies:
 
-- --Exploration and learning techniques for the classification of knowledge;
-- --Development of models, languages ​​(metas data, ontologies) specific to fields of application, trades, services, etc.
-- --Development of software tools to assist the description of data and domains, especially for multimedia documents (image, videos, etc.);
-- --Multidisciplinary approaches (cognitive sciences, psychology, etc.) for linguistic and semantic representation;
-- --Techniques and tools for reasoning on models;
-- --Technologies for publishing and discovering services on the web;
-- --Distributed architectures for data exchange (peer-to-peer);
-- --Service-oriented architectures that allow different applications (for fixed or mobile support), connected by the network (Internet), to communicate and interoperate (service composition).
+- Exploration and learning techniques for the classification of knowledge;
+- Development of models, languages ​​(metas data, ontologies) specific to fields of application, trades, services, etc.
+- Development of software tools to assist the description of data and domains, especially for multimedia documents (image, videos, etc.);
+- Multidisciplinary approaches (cognitive sciences, psychology, etc.) for linguistic and semantic representation;
+- Techniques and tools for reasoning on models;
+- Technologies for publishing and discovering services on the web;
+- Distributed architectures for data exchange (peer-to-peer);
+- Service-oriented architectures that allow different applications (for fixed or mobile support), connected by the network (Internet), to communicate and interoperate (service composition).
 
 In 2005, nearly 60 companies sold semantic technology. Given that complex applications are not yet highly developed and effective, the market is dominated by institutional investors, fundamental research companies, and companies that adopt technology early to gain competitive advantage through the market. and the different states that have invested in basic research. The majority of the expenditures made to date mainly concern research and development.
 
@@ -197,13 +189,13 @@ In general, the first to adopt semantic technology hope to gain a strategic adva
 
                                         Figure : Example of products using semantic web technologies
 
-# Limitations &amp; Future Work
+## Limitations & Future Work
 
-Tim Berners Lee&#39;s vision of a Semantic Web forming a universal knowledge base opens many perspectives, but nevertheless, its implementation poses multiple problems. The first to notice is the diversity and complexity of the languages ​​proposed today by the W3C. On the other hand, the real cost of switching to the Semantic Web is an obstacle. Indeed, the strength of the Semantic Web lies in the software agents. The Semantic Web will have reached its full potential when different agents will create various programs to collect Web content from different sources. They will be able to process the information and exchange it with other programs as Web content readable by automated machines, the effectiveness of software agents will be increased. &quot;The Semantic Web promotes this synergy: even agents that are not specifically made to work together can transfer data between them if the data is accompanied by semantics. Before reaching this level of perfection, one must take into account an essential but problematic step of the Semantic Web which is the integration of information sources and the human resources to be mobilized to carry out this work. The Semantic Web infrastructure must first allow for simple and effective integration of information. On the other hand, the human resources to make this transition are still few and the producers of contents supposed to enrich the documents of metas data do not see immediate benefits to proceed to this enrichment. These various obstacles to the implementation of the Semantic Web can result in a categorization of the uses of the Semantic Web and its technologies according to the users. The cleavage should be between the needs of businesses and the needs of individuals on the one hand, and between the Semantic Web developed by scientists and the Semantic Web Community developed by Internet users on the other side.
+Tim Berners Lee's vision of a Semantic Web forming a universal knowledge base opens many perspectives, but nevertheless, its implementation poses multiple problems. The first to notice is the diversity and complexity of the languages proposed today by the W3C. On the other hand, the real cost of switching to the Semantic Web is an obstacle. Indeed, the strength of the Semantic Web lies in the software agents. The Semantic Web will have reached its full potential when different agents will create various programs to collect Web content from different sources. They will be able to process the information and exchange it with other programs as Web content readable by automated machines, the effectiveness of software agents will be increased. &quot;The Semantic Web promotes this synergy: even agents that are not specifically made to work together can transfer data between them if the data is accompanied by semantics. Before reaching this level of perfection, one must take into account an essential but problematic step of the Semantic Web which is the integration of information sources and the human resources to be mobilized to carry out this work. The Semantic Web infrastructure must first allow for simple and effective integration of information. On the other hand, the human resources to make this transition are still few and the producers of contents supposed to enrich the documents of metas data do not see immediate benefits to proceed to this enrichment. These various obstacles to the implementation of the Semantic Web can result in a categorization of the uses of the Semantic Web and its technologies according to the users. The cleavage should be between the needs of businesses and the needs of individuals on the one hand, and between the Semantic Web developed by scientists and the Semantic Web Community developed by Internet users on the other side.
 
 Despite the various obstacles that have just been mentioned and which are inherent to its implementation, the Semantic Web and more broadly semantic technologies, should have a leading role in improving access to information, the development of economies and knowledge in general.
 
-# References
+## References
 
 Business Process Execution Language for Web Services (BPEL4WS) homepage: http://www128.ibm.com/developerworks/library/ws-bpel/
 
