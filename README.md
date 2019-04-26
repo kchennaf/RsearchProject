@@ -62,21 +62,21 @@ If we summarize, we can classify the evolution of the web in three stages. The f
 The websites are carefully focused on responsive design, mainly favoring the user&#39;s experience and the analysis of his behavior in order to reach his interests, through tools such as Eye-tracking and Click-tracking. Speech recognition, augmented reality, applications, immersive content and 360 video only signal the emergence of home automation, automation and connected objects. Of course, images and video will inevitably remain essential aspects of the future of online advertising. Native Ads and other advertising concepts will evolve easily via the semantics of the Web.
 
 
-
+![](https://github.com/kchennaf/RsearchProject/blob/master/image9.png?raw=true)
 Table: Comparison of different versions of the Web
 
 
 ## Semantic Web Architecture & Languages
 
-The work aiming at the realization of the Semantic Web is located at very different levels of complexity. The simplest use games more or less reduced metadata in a search context information or to adapt the presentation of information to users. In this case, simple representation languages ​​are enough. In the more complex work implementing sophisticated architectures, to allow, for example, the exploitation of heterogeneous resources, more expressive and more formal languages work in representation and in the engineering of knowledge, are required. The W3C proposal is initially based on a pyramid of languages of which only the lower layers are today relatively stabilized. The following figure shows one of the versions of the organization in layers proposed by the W3C. Two types of benefits can be expected from this organization. It allows a gradual approach in standardization and user acceptance processes.
+The work aiming at the realization of the Semantic Web is located at very different levels of complexity. The simplest use games more or less reduced metadata in a search context information or to adapt the presentation of information to users. In this case, simple representation languages are enough. In the more complex work implementing sophisticated architectures, to allow, for example, the exploitation of heterogeneous resources, more expressive and more formal languages work in representation and in the engineering of knowledge, are required. The W3C proposal is initially based on a pyramid of languages of which only the lower layers are today relatively stabilized. The following figure shows one of the versions of the organization in layers proposed by the W3C. Two types of benefits can be expected from this organization. It allows a gradual approach in standardization and user acceptance processes.
 
-
+![](https://github.com/kchennaf/RsearchProject/blob/master/image7.png?raw=true)
 Figure : Semantic Web Architecture
 
 Moreover, if it is well designed, it must make it possible to language at the right level of complexity, this being a function of the application to realize. A central aspect of the infrastructure is its ability to identify and locate various resources. It is based on the notion of URI (Uniform Resource Identifier) which allows to assign a unique identifier to a set of resources, on the web of course but also in other domains (documents, mobile phones, people, etc.). This concept is currently experiencing many extensions, currently being standardization, to entities other than URLs. It is at the very base languages of the W3C.  Another characteristic of all these languages is to be systematically expressible and exchangeable in an XML syntax. This makes it possible to benefit from all the technologies developed around XML: XML Schemas, tools for exploiting XML resources (JAVA libraries, etc.), databases managing XML files, even though specific query languages are needed for languages built on XML like RDF.
 
  
-
+![](https://github.com/kchennaf/RsearchProject/blob/master/image8.jpg?raw=true)
 Figure: URIs Vs URLs
 
 
@@ -84,7 +84,8 @@ Figure: URIs Vs URLs
 The first of these languages is RDF (&quot;Resource Description Framework &quot;) to which RDF Schema (RDFS) has been added. The initial goals of RDF were the representation and better exploitation of metadata. But, more generally, RDF allows to see the Web as a set of resources connected by the links labeled &quot;semantically&quot;. RDF also made it possible to express wide vocabularies, such as the UNSPSC product catalog, especially when it is completed with RDFS which allows to offer a higher level structuring. RDF statements are resource-attribute-value triplets (the value is a resource or string). A resource must have a URI. Triplets are interpretable as subject-predicate-object.
 
  
-
+![](https://github.com/kchennaf/RsearchProject/blob/master/image2.png?raw=true)
+![](https://github.com/kchennaf/RsearchProject/blob/master/image12.png?raw=true)
 Figure: RDF example
 
 Note that the data model is not the structure one of XML trees even though an XML syntax exists. We are rather close first semantic networks. The simplicity of the model, criticizable for some, may be one of the keys to its acceptance and the relative simplicity of the realization of tools. Some additions like containers and the possibility of considering an RDF statement (triplet) as a node of the graph itself, can increase the expressiveness of the language, particularly in a discursive context or meta-data (which has affirmed such statement, ...) even though notes the little use of these additions in real applications. RDFS adds to RDF the ability to define class hierarchies and properties whose applicability and value domain can be Constraints using the rdfs: domain and rdfs: range attributes. Every application domain can be associated with a schema identified by a particular prefix and corresponding to a URI3. Instance resources are then described using the vocabulary given by the classes defined in this diagram. Applications can then give them a operational interpretation. It can be noted that RDFS does not integrate into as such of reasoning skills. On the other hand, appear database solutions dedicated to RDF (S), such as architecture Sesame with which the RQL query language is associated. To summarize, XML can be seen as the transport layer syntactically, RDF as a basic relational language. RDFS offers primitive representations of structures or ontological primitives.
@@ -119,6 +120,7 @@ By definition, a formal system, that is to say a logic, is composed of:
 
 The first two points are the syntax (how to write and calculate formulas) and the last one semantics (how to evaluate formulas) of representation in a model.
 
+![](https://github.com/kchennaf/RsearchProject/blob/master/image10.png?raw=true)
 Figure: Development of knowledge representation
 
 ### MetaData & LinkData
@@ -127,15 +129,15 @@ The use of Semantic Web infrastructures by different applications will be progre
 
 In terms of applications, it is clear that the search for information (and therefore the indexing) is the primary utility of meta-data. But their role is not limited to that. We can also mention navigation assistance, collaborative work based on annotations, assistance with certification and, as importantly, personalization and adaptation to specific users, for example for the construction of courses. Individuals.
 
-
+![](https://github.com/kchennaf/RsearchProject/blob/master/image4.png?raw=true)
 Figure: Example of RDF using Linked Data
 
 As examples of first realizations using RDF fully for metadata or annotations, we can mention the system Annotea and RDFPic software. Annotea is a client-server system collaborative for the annotation of documents without any modification of these. These RDF annotations can be added, modified and viewed by a community of users who have access to the same server annotation. XPointer and XLink are used to associate metadata with different parts of documents.  RDFPic is used to attach meta-data to digital photos for the purpose of facilitate the search for images. It relies on a combination descriptive elements with those of the Dublin Core which proposes a set of relatively limited descriptive fields (author, ...). The RDF descriptions are nested within JPEG files. On the other hand, different initiatives have already produced metadata specifications in RDF, for example LOM (Learning Object Metadata) for distance learning.
 
 These two examples, Annotea and RDFPic, are interesting because they highlight important distinctions in the reports between metadata and Semantic Web. A first is between a nested representation in the resources they qualify (the Meta tags in HTML pages are the most primitive form even before the Semantic Web) and an external representation, by example a catalog or a Topic Maps file associated with a portal on Internet or Intranet. Using RDF is compatible with both while the Topic Maps approach works with external files. The external approach has the advantage of leaving the documents and allows the same documents to be used by communities or for different tasks, as often reported in the context of open hypermedia systems.
 
-
-Figure: Example of BBC Music&#39;s linked data with Wikipedia
+![](https://github.com/kchennaf/RsearchProject/blob/master/image5.png?raw=true)
+Figure: Example of BBC Music's linked data with Wikipedia
 
 ### Ontologies & OWL
 
@@ -153,6 +155,7 @@ To represent ontologies, W3C has proposed a standard language: OWL (Ontology Web
 
 OWL and RDFS are two RDF languages that define vocabularies: &quot;RDF Schema defines the smallest number of concepts and properties needed to define a simple vocabulary. OWL is a much richer language which, with the notions defined by RDF Schema, adds the properties of equivalent class, equivalent property, identity of two resources, differences of two resources, of opposite, of symmetry, of transitivity, of cardinality, etc., to define complex relationships between resources. &quot;
 
+![](https://github.com/kchennaf/RsearchProject/blob/master/image15.png?raw=true)
 Figure: Evolution of Ontologies
 
 ## The Semantic Web Today
@@ -161,6 +164,7 @@ Web 2.0 (also called collaborative Web or Community Web) already represents a ga
 
 In February 2004, the World Wide Web Consortium announced its agreement to use two key semantic Web technologies: the Resource Description Framework (RDF) and the Web Ontology Language (OWL). RDF and OWL already allow different types of users to share the same information, even if they do not share the same software. This news has launched the emergence of the semantic Web on a large scale. Five years ago, the Semantic Web was still at the advanced search level. Deployment of RDF and OWL technologies in commercial products and services signals the transition of Semantic Web technologies to the creation and deployment of a global market for technologies and tools that allow for more flexible access to data, content, and knowledge. the Web.
 
+![](https://github.com/kchennaf/RsearchProject/blob/master/image7.png?raw=true)
 Figure : Use of Semantic Web today
 
 Software using RDF and OWL technologies currently include but are not limited to:
@@ -185,7 +189,11 @@ In 2005, nearly 60 companies sold semantic technology. Given that complex applic
 
 In general, the first to adopt semantic technology hope to gain a strategic advantage from these new technologies and services in the future. The success of the semantic technology market will depend mainly on its impact on business performance. The market for semantic technologies is expected to evolve over a period of fifteen years from its prediction (2000) to the development of a market worth billions of dollars. The expected impact on the markets is expected to be over $ 1 trillion in 2020.
 
-
+![](https://github.com/kchennaf/RsearchProject/blob/master/image3.jpg?raw=true)
+![](https://github.com/kchennaf/RsearchProject/blob/master/image11.jpg?raw=true)
+![](https://github.com/kchennaf/RsearchProject/blob/master/image6.jpg?raw=true)
+![](https://github.com/kchennaf/RsearchProject/blob/master/image14.jpg?raw=true)
+![](https://github.com/kchennaf/RsearchProject/blob/master/image16.jpg?raw=true)
 
                                         Figure : Example of products using semantic web technologies
 
