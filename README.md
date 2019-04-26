@@ -70,13 +70,13 @@ Table: Comparison of different versions of the Web
 
 The work aiming at the realization of the Semantic Web is located at very different levels of complexity. The simplest use games more or less reduced metadata in a search context information or to adapt the presentation of information to users. In this case, simple representation languages are enough. In the more complex work implementing sophisticated architectures, to allow, for example, the exploitation of heterogeneous resources, more expressive and more formal languages work in representation and in the engineering of knowledge, are required. The W3C proposal is initially based on a pyramid of languages of which only the lower layers are today relatively stabilized. The following figure shows one of the versions of the organization in layers proposed by the W3C. Two types of benefits can be expected from this organization. It allows a gradual approach in standardization and user acceptance processes.
 
-![](https://github.com/kchennaf/RsearchProject/blob/master/image7.png?raw=true)
+![](https://github.com/kchennaf/RsearchProject/blob/master/image13.png?raw=true)
 Figure : Semantic Web Architecture
 
 Moreover, if it is well designed, it must make it possible to language at the right level of complexity, this being a function of the application to realize. A central aspect of the infrastructure is its ability to identify and locate various resources. It is based on the notion of URI (Uniform Resource Identifier) which allows to assign a unique identifier to a set of resources, on the web of course but also in other domains (documents, mobile phones, people, etc.). This concept is currently experiencing many extensions, currently being standardization, to entities other than URLs. It is at the very base languages of the W3C.  Another characteristic of all these languages is to be systematically expressible and exchangeable in an XML syntax. This makes it possible to benefit from all the technologies developed around XML: XML Schemas, tools for exploiting XML resources (JAVA libraries, etc.), databases managing XML files, even though specific query languages are needed for languages built on XML like RDF.
 
  
-![](https://github.com/kchennaf/RsearchProject/blob/master/image13.jpg?raw=true)
+![](https://github.com/kchennaf/RsearchProject/blob/master/image8.jpg?raw=true)
 Figure: URIs Vs URLs
 
 
